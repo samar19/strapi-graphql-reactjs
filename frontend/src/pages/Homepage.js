@@ -19,7 +19,7 @@ export default function Homepage() {
           
           <small>console list</small>
 
-          
+          <p>{review.attributes.body.substring(0, 200)}...</p>
           <Link to={`/details/${review.id}`}>Read more</Link>
         </div>
       ))}
